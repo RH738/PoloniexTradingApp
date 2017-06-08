@@ -15,6 +15,18 @@
 	margin-top: 2.5px;
 }
 
+#buy {
+	background-color: green;
+	color: white;
+	border: none;
+}
+
+#sell {
+	background-color: red;
+	color: white;
+	border: none;
+}
+
 </style>
 
 <body>
@@ -25,7 +37,7 @@
 			<div class="col-md-2 col-md-offset-4 left">
 				<p>Action</p>
 				<p>Funds</p>
-				<p>AmountTEST</p>
+				<p>Amount</p>
 				<p>Stop Price</p>
 				<p>Stop Price Limit</p>
 				<p>Take Price</p>
@@ -33,8 +45,8 @@
 			</div>
 
 			<div class="col-md-2 right">
-				<button type="button" name="buy">Buy</button>
-				<button type="button" name="sell">Sell</button>
+				<button type="button" name="buy" id="buy">Buy</button>
+				<button type="button" name="sell" id="sell">Sell</button>
 				<input type="text" name="funds">
 				<input type="text" name="amount">
 				<input type="text" name="stopprice">
